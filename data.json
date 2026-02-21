@@ -8,13 +8,20 @@
   ],
   "sixMonthChecks": {
     "0": false,
-    "1": true,
+    "1": false,
     "2": false,
     "3": false,
-    "4": true
+    "4": false
   },
   "monthlyChecks": {
-    "feb": { "0": false, "1": true, "2": false, "3": true, "4": false, "5": false },
+    "feb": {
+      "0": false,
+      "1": false,
+      "2": false,
+      "3": false,
+      "4": false,
+      "5": false
+    },
     "mar": {},
     "apr": {},
     "may": {},
@@ -22,7 +29,9 @@
     "jul": {}
   },
   "dateChecks": {
-    "feb": { "1": true, "15": true, "22": false },
+    "feb": {
+      
+    },
     "mar": {},
     "apr": {},
     "may": {},
