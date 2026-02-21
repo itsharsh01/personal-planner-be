@@ -1,0 +1,32 @@
+{
+  "sixMonthGoals": [
+    "60 KG",
+    "5 Project",
+    "50 LPA",
+    "1 Funding",
+    "50K follower LinkedIn"
+  ],
+  "sixMonthChecks": {
+    "0": false,
+    "1": true,
+    "2": false,
+    "3": false,
+    "4": true
+  },
+  "monthlyChecks": {
+    "feb": { "0": false, "1": true, "2": false, "3": true, "4": false, "5": false },
+    "mar": {},
+    "apr": {},
+    "may": {},
+    "jun": {},
+    "jul": {}
+  },
+  "dateChecks": {
+    "feb": { "1": true, "15": true, "22": false },
+    "mar": {},
+    "apr": {},
+    "may": {},
+    "jun": {},
+    "jul": {}
+  }
+}
