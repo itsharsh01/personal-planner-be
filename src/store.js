@@ -73,7 +73,7 @@ function setGoalCheck(index, checked) {
 function setMonthlyCheck(monthId, itemIndex, checked) {
   if (!MONTH_IDS.includes(monthId)) throw new Error('Invalid monthId');
   const idx = Number(itemIndex);
-  if (Number.isNaN(idx) || idx < 0 || idx > 5) throw new Error('Item index must be 0-5');
+  if (Number.isNaN(idx) || idx < 0 || idx > 6) throw new Error('Item index must be 0-6');
   const key = String(idx);
   if (checked === undefined) {
     state.monthlyChecks[monthId][key] = !state.monthlyChecks[monthId][key];
